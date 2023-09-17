@@ -31,17 +31,17 @@ class PersonalInfoFragment : Fragment(R.layout.fragment_personal_info) {
                 val city = etCity.text.toString()
                 val live = etLive.text.toString()
                 val empty = (mail.isNotEmpty() && phone.isNotEmpty() && city.isNotEmpty() && live.isNotEmpty())
-                //val match = (Patterns.EMAIL_ADDRESS.matcher("example@example.com").matches())
+                val match = (Patterns.EMAIL_ADDRESS.matcher(mail).matches())
 
-                /*if (match==false){
+                if (match==false){
                     Toast.makeText(context, R.string.toast2, Toast.LENGTH_SHORT).show()
-                }*/
+                }
 
                 if (empty==false){
                     Toast.makeText(context, R.string.toast, Toast.LENGTH_SHORT).show()
                 }
 
-                if (empty==true){
+                if (empty==true && match==true){
                     val Person = Personal(name, mail, phone, city, live)
                     val action = PersonalInfoFragmentDirections.personalToCustom(Person)
                     findNavController().navigate(action)
