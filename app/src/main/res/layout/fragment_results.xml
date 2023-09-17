@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.results.ResultsFragment"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/tv_baslik2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/last_title"
+        android:textColor="@color/hint"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/hint"
+        android:text="@string/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_rs_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_surname"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_name"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_name" />
+
+    <TextView
+        android:id="@+id/tv_data_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_baslik2" />
+
+    <TextView
+        android:id="@+id/tv_rs_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_mail"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_mail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_mail" />
+
+    <TextView
+        android:id="@+id/tv_data_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_mail"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_name" />
+
+    <TextView
+        android:id="@+id/tv_rs_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_phone"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_phone"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_phone" />
+
+    <TextView
+        android:id="@+id/tv_data_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_phone"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_mail" />
+
+    <TextView
+        android:id="@+id/tv_rs_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_city"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_city"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_city" />
+
+    <TextView
+        android:id="@+id/tv_data_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_city"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_phone" />
+
+    <TextView
+        android:id="@+id/tv_rs_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/live"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_live"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_live"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_live" />
+
+    <TextView
+        android:id="@+id/tv_data_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_live"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_city" />
+
+    <TextView
+        android:id="@+id/tv_rs_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/football"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_football"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_football"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_football" />
+
+    <TextView
+        android:id="@+id/tv_data_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_football"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_live" />
+
+    <TextView
+        android:id="@+id/tv_rs_feelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feeling"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_feelling"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_feelling"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_feelling" />
+
+    <TextView
+        android:id="@+id/tv_data_feelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_feelling"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_football" />
+
+    <TextView
+        android:id="@+id/tv_rs_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/social"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_data_social"
+        app:layout_constraintEnd_toStartOf="@+id/tv_data_social"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_data_social" />
+
+    <TextView
+        android:id="@+id/tv_data_social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_rs_social"
+        app:layout_constraintTop_toBottomOf="@+id/tv_data_feelling" />
+
+    <Button
+        android:id="@+id/btn_kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/hint"
+        android:text="@string/btn_save"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_back"
+        app:layout_constraintEnd_toStartOf="@+id/btn_back"
+        app:layout_constraintTop_toTopOf="@+id/btn_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

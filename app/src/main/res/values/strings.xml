@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Navigation Homework</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">KİŞİLİK TESTİ</string>
+    <string name="last_title">CEVAPLARINIZ</string>
+
+    <string name="name">Lütfen adınızı giriniz</string>
+    <string name="surname">Lütfen soyadınızı giriniz.</string>
+    <string name="mail">1.E-Mail:</string>
+    <string name="phone">2.Telefon:</string>
+    <string name="city">3.Doğduğunuz Şehir:</string>
+    <string name="live">4.Yaşadığınız Şehir:</string>
+
+    <string name="football">5.Futbol oynamayı sever misin?</string>
+    <string name="feeling">6.Kendini mutlu hissediyor musun?</string>
+    <string name="social">7.Sosyal medya kullanıyor musun?</string>
+    <string name="name_surname">İsim Soyisim:</string>
+
+    <string name="btn_start">ANKETE BAŞLA</string>
+    <string name="btn_continue">DEVAM ET</string>
+    <string name="btn_back">BAŞA DÖN</string>
+    <string name="btn_save">KAYDET</string>
+
+    <string name="toast">Tüm alanlar zorunludur. Lütfen doldurunuz.</string>
+    <string name="toast2">E-mail adresi hatalıdır. Lütfen kontrol ederek tekrar giriniz.</string>
+    <string name="snack">Bilgileriniz başarı ile kaydedilmiştir.</string>
+
+
+
+
+
+
+
+
+</resources>
