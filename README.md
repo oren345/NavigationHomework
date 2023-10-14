@@ -1,7 +1,8 @@
 ## Project Features
--Navigation Component
--ViewBinding
--navArgs
+
+ - Navigation Components
+ - ViewBinding
+ - NavArgs
 
 ## Project Video
 
