@@ -35,9 +35,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                     findNavController().navigate(action)
                 }
             }
-
         }
-
     }
-
 }

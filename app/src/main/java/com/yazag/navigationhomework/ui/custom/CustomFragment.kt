@@ -41,13 +41,7 @@ class CustomFragment : Fragment(R.layout.fragment_custom) {
                     findNavController().navigate(action)
 
                 }
-
-
-
             }
-
         }
-
     }
-
 }
